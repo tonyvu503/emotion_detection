@@ -72,6 +72,8 @@ def emotion_detection():
 
 
 #             start = time.time()
+            input_name = model.get_inputs()[0].name
+            output_name = model.get_outputs()[0].name
             pred_onx = model.run([output_name], {input_name: face_input})
 #             end = time.time()
 #             print("Time taken by onnx model: ", end - start)
