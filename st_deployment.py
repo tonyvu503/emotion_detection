@@ -8,8 +8,6 @@
 
 
 # In[1]:
-pip install onnx
-pip install onnxruntime
 
 import onnx
 import onnxruntime as rt
