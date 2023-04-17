@@ -1,6 +1,6 @@
 onnx
 onnxruntime
 numpy
-cv2
+opencv-python-headless
 os
 streamlit
