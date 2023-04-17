@@ -2,4 +2,4 @@ onnx==1.10.1
 onnxruntime==1.8.1
 numpy==1.19.3
 opencv-python-headless
-streamlit
+streamlit==1.11.0
